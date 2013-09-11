@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Mengdebereginng_Title" xml:space="preserve">
+    <value>Jackon.no: Beregningsprogram Jackon Thermomur&amp;reg; 350</value>
+  </data>
+  <data name="Kundeinformasjon" xml:space="preserve">
+    <value>Kundeinformasjon</value>
+  </data>
+  <data name="Prosjektdata" xml:space="preserve">
+    <value>Prosjektdata</value>
+  </data>
+  <data name="NavnFirma" xml:space="preserve">
+    <value>Navn/Firma</value>
+  </data>
+  <data name="LopemeterVegg" xml:space="preserve">
+    <value>Løpemeter vegg</value>
+  </data>
+  <data name="meter" xml:space="preserve">
+    <value>meter</value>
+  </data>
+  <data name="AntMeterUblokk" xml:space="preserve">
+    <value>Ant.meter Toppblokk</value>
+  </data>
+  <data name="Adresse" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="AntallUtvendigeHjorner" xml:space="preserve">
+    <value>Antall utvendige hjørner</value>
+  </data>
+  <data name="AntHjornerMedUblokk" xml:space="preserve">
+    <value>Ant.hjørner med Toppblokk</value>
+  </data>
+  <data name="postnrSted" xml:space="preserve">
+    <value>Post nr./Stad</value>
+  </data>
+  <data name="AntallInnvendigeHjorner" xml:space="preserve">
+    <value>Antall innvendige hjørner:</value>
+  </data>
+  <data name="stk" xml:space="preserve">
+    <value>stk</value>
+  </data>
+  <data name="pussetVegg" xml:space="preserve">
+    <value>pusset vegg:</value>
+  </data>
+  <data name="Epost" xml:space="preserve">
+    <value>E-post</value>
+  </data>
+  <data name="AntallFrittstaaendeEndevegger" xml:space="preserve">
+    <value>Antall frittstående endevegger</value>
+  </data>
+  <data name="AntallKvadratVeggTetningsMembran" xml:space="preserve">
+    <value>Ant. m&lt;sup&gt;2&lt;/sup&gt; vegg tetningsmebran</value>
+  </data>
+  <data name="Telefon" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="HoydeMedSTDBlokk" xml:space="preserve">
+    <value>Høyde med STD-blokk</value>
+  </data>
+  <data name="AntallKvadratMeter" xml:space="preserve">
+    <value>Ant. m&lt;sup&gt;2&lt;/sup&gt; </value>
+  </data>
+  <data name="Telefax" xml:space="preserve">
+    <value>Telefax</value>
+  </data>
+  <data name="AntallMeterHalvBlokk" xml:space="preserve">
+    <value>Ant.meter 1/2-blokk</value>
+  </data>
+  <data name="ArealMedGulvisolasjon" xml:space="preserve">
+    <value>Areal med gulvisolasjon</value>
+  </data>
+  <data name="DeresRef" xml:space="preserve">
+    <value>Deres ref</value>
+  </data>
+  <data name="AntallhjørnermedHalvBlokk" xml:space="preserve">
+    <value>Ant.hjørner med 1/2-blokk</value>
+  </data>
+  <data name="Prosjekt" xml:space="preserve">
+    <value>Prosjekt</value>
+  </data>
+  <data name="ArealVinduDørTotalt" xml:space="preserve">
+    <value>Areal vindu/dør, totalt</value>
+  </data>
+  <data name="ForespordinByggvareforretning" xml:space="preserve">
+    <value>Forespør din byggevareforretning om nødvendig trelast</value>
+  </data>
+  <data name="AntattArmeringsforbrukMeter" xml:space="preserve">
+    <value>Antatt armeringsforbruk, meter</value>
+  </data>
+  <data name="ogVerktoyFormoteringavThermomur" xml:space="preserve">
+    <value>og verktøy for montering av Thermomur.</value>
+  </data>
+  <data name="AntattBetongforbruk" xml:space="preserve">
+    <value>Antatt betongforbruk, m3</value>
+  </data>
+  <data name="OrdreTelefon" xml:space="preserve">
+    <value>Ordre telefon: 69 36 33 88</value>
+  </data>
+  <data name="OrdreEpost" xml:space="preserve">
+    <value>Ordre e-post: ordre@jackon.no</value>
+  </data>
+  <data name="Postboks" xml:space="preserve">
+    <value>Postboks 1410</value>
+  </data>
+  <data name="Ordrefaks" xml:space="preserve">
+    <value>Ordrefaks: 800 32 874</value>
+  </data>
+  <data name="Postadresse" xml:space="preserve">
+    <value>1602  Fredrikstad</value>
+  </data>
+  <data name="AntallLopemeterVegg" xml:space="preserve">
+    <value>Antall løpemeter vegg</value>
+  </data>
+  <data name="ProsjektData2" xml:space="preserve">
+    <value>Prosjektdata</value>
+  </data>
+  <data name="SiteTitle" xml:space="preserve">
+    <value>Jackon Nettkalkulator</value>
+  </data>
+  <data name="Antall" xml:space="preserve">
+    <value>Antall</value>
+  </data>
+  <data name="AntallFrittstaaendeEndeveggerHarUgyldigVerdi" xml:space="preserve">
+    <value>Antall frittstående endevegger har ugyldig verdi!</value>
+  </data>
+  <data name="AntallHjornerEnderHalvBlokk" xml:space="preserve">
+    <value>Antall hjørner + ender med 1/2-blokk</value>
+  </data>
+  <data name="AntallHjornerEnderUblokk" xml:space="preserve">
+    <value>Antall hjørner + ender med Toppblokk</value>
+  </data>
+  <data name="AntallHjornerHalvblokkHarUgyldigVerdi" xml:space="preserve">
+    <value>Antall hjørner med 1/2-blokk har ugyldig verdi!</value>
+  </data>
+  <data name="AntallHjornerMedUBlokkHarUgyldigVerdi" xml:space="preserve">
+    <value>Antall hjørner med Toppblokk har ugyldig verdi!</value>
+  </data>
+  <data name="AntallInnvendigeHjornerharUgyldigVerdi" xml:space="preserve">
+    <value>Antall innvendige hjørner har ugyldig verdi!</value>
+  </data>
+  <data name="AntallKvadratPussetVegg" xml:space="preserve">
+    <value>Antall m&lt;SUP&gt;2&lt;/SUP&gt; pusset vegg</value>
+  </data>
+  <data name="AntallKvadratPussetVeggHarUgyldigVerdi" xml:space="preserve">
+    <value>Antall m&lt;SUP&gt;2&lt;/SUP&gt; pusset vegg har ugyldig verdi!</value>
+  </data>
+  <data name="AntallKvadratPussetVeggMaFyllesUt" xml:space="preserve">
+    <value>Antall m&lt;SUP&gt;2&lt;/SUP&gt; pusset vegg må fylles ut!</value>
+  </data>
+  <data name="AntallKvadratVeggMedTetningsMembranHarUgyldigVerdi" xml:space="preserve">
+    <value>Antall m&lt;SUP&gt;2&lt;/SUP&gt; vegg med tetningsmebran har ugyldig verdi!</value>
+  </data>
+  <data name="AntallKvadratVeggMedTetningsMembranMaFyllesUt" xml:space="preserve">
+    <value>Antall m&lt;SUP&gt;2&lt;/SUP&gt; vegg med tetningsmebran må fylles ut!</value>
+  </data>
+  <data name="AntallLopemeterHarUgyldigVerdi" xml:space="preserve">
+    <value>Antall løpemeter har ugyldig verdi!</value>
+  </data>
+  <data name="AntallLopemetermaafyllesut" xml:space="preserve">
+    <value>Antall løpemeter må fylles ut!</value>
+  </data>
+  <data name="AntallMeterHalvBlokkHarUgyldigVerdi" xml:space="preserve">
+    <value>Antall meter 1/2-blokk har ugyldig verdi!</value>
+  </data>
+  <data name="AntallMeterUblokkHarUgyldigVerdi" xml:space="preserve">
+    <value>Antall meter Toppblokk har ugyldig verdi!</value>
+  </data>
+  <data name="AntallUtvendigeHjornerMaaFyllesUt" xml:space="preserve">
+    <value>Antall utvendige hjørner må fylles ut!</value>
+  </data>
+  <data name="ArealGulvisolasjon" xml:space="preserve">
+    <value>Areal gulvisolasjon&lt;BR&gt;Jackopor 80, 2x100 mm</value>
+  </data>
+  <data name="ArealJackpor80HarUgyldigVerdi" xml:space="preserve">
+    <value>Areal gulvisolasjon, Jackopor 80, 2x100 mm har ugyldig verdi!</value>
+  </data>
+  <data name="ArealJackpor80MaaFyllesUt" xml:space="preserve">
+    <value>Areal gulvisolasjon, Jackopor 80, 2x100 mm må fylles ut!</value>
+  </data>
+  <data name="Bredde" xml:space="preserve">
+    <value>Bredde</value>
+  </data>
+  <data name="Hoyde" xml:space="preserve">
+    <value>Høyde</value>
+  </data>
+  <data name="HoydeMedStdBlokkHarUgyldigVerdi" xml:space="preserve">
+    <value>Høyde med Std-blokk har ugyldig verdi!</value>
+  </data>
+  <data name="HoydeMedStdBlokkMaaFyllesUt" xml:space="preserve">
+    <value>Høyde med Std-blokk må fylles ut!</value>
+  </data>
+  <data name="MengdeberegningJackonThermomur350" xml:space="preserve">
+    <value>Beregningsprogram Jackon Thermomur&amp;reg; 350</value>
+  </data>
+  <data name="SaaleblokkAntallMeter" xml:space="preserve">
+    <value>Såleblokk, antall meter</value>
+  </data>
+  <data name="SaaleblokkAntallMeterMaaFyllesUt" xml:space="preserve">
+    <value>Såleblokk, antall meter må fylles ut!</value>
+  </data>
+  <data name="SaaleblokkAntellMeterHarUgyldigVerdi" xml:space="preserve">
+    <value>Såleblokk, antall meter har ugyldig verdi!</value>
+  </data>
+  <data name="SmyglisteKolonneAntallHarUgyldigVerdiIRad" xml:space="preserve">
+    <value>Smygliste kolonne antall har ugyldig verdi i rad</value>
+  </data>
+  <data name="SmyglisteKolonneAntallManglerVerdiIRad" xml:space="preserve">
+    <value>Smygliste kolonne antall mangler verdi i rad 1!</value>
+  </data>
+  <data name="SmyglisteKolonneBreddeHarUgyldigVerdiIRad" xml:space="preserve">
+    <value>Smygliste kolonne bredde har ugyldig verdi i rad</value>
+  </data>
+  <data name="SmyglisteKolonneBreddeManglerVerdiIRad" xml:space="preserve">
+    <value>Smygliste kolonne bredde mangler verdi i rad 1!</value>
+  </data>
+  <data name="SmyglisteKolonneHoydeHarUgyldigVerdiIRad" xml:space="preserve">
+    <value>Smygliste kolonne høyde har ugyldig verdi i rad</value>
+  </data>
+  <data name="SmyglisteKolonneHoydeManglerVerdiIRad" xml:space="preserve">
+    <value>Smygliste kolonne høyde mangler verdi i rad 1!</value>
+  </data>
+  <data name="SmyglisterDorerogVinduer" xml:space="preserve">
+    <value>Smyglister for dører og vinduer</value>
+  </data>
+  <data name="StartBeregning" xml:space="preserve">
+    <value>Start Beregning</value>
+  </data>
+  <data name="Frakt" xml:space="preserve">
+    <value>Frakt, Thermomur, isolasjon og plastfolie</value>
+  </data>
+  <data name="Frakt_Enhet" xml:space="preserve">
+    <value>m&lt;sup&gt;3&lt;/sup&gt;</value>
+  </data>
+  <data name="Frakt_NOBB" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Jackopor_80" xml:space="preserve">
+    <value>Jackopor 80 t=100mm (2x100mm)</value>
+  </data>
+  <data name="Jackopor_80_Enhet" xml:space="preserve">
+    <value>m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Jackopor_80_NOBB" xml:space="preserve">
+    <value>21118633</value>
+  </data>
+  <data name="Plastfolie" xml:space="preserve">
+    <value>Plastfolie, t=0,2 mm, 135 m&lt;sup&gt;2&lt;/sup&gt;/rull</value>
+  </data>
+  <data name="Plastfolie_Enhet" xml:space="preserve">
+    <value>m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Plastfolie_NOBB" xml:space="preserve">
+    <value>26952580</value>
+  </data>
+  <data name="Thermo_Armeringsvev20" xml:space="preserve">
+    <value>Armeringsvev, rull á 20 m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_Armeringsvev20_Enhet" xml:space="preserve">
+    <value>stk</value>
+  </data>
+  <data name="Thermo_Armeringsvev20_NOBB" xml:space="preserve">
+    <value>23107543</value>
+  </data>
+  <data name="Thermo_Armeringsvev50" xml:space="preserve">
+    <value>Armeringsvev, rull á 50 m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_Armeringsvev50_Enhet" xml:space="preserve">
+    <value>stk</value>
+  </data>
+  <data name="Thermo_Armeringsvev50_NOBB" xml:space="preserve">
+    <value>23107535</value>
+  </data>
+  <data name="Thermo_Byggeskum" xml:space="preserve">
+    <value>Byggeskum Soudafoam</value>
+  </data>
+  <data name="Thermo_Byggeskum_Enhet" xml:space="preserve">
+    <value>stk</value>
+  </data>
+  <data name="Thermo_Byggeskum_NOBB" xml:space="preserve">
+    <value>25060922</value>
+  </data>
+  <data name="Thermo_FestekileTilUBlokk350" xml:space="preserve">
+    <value>Festekile til Toppblokk 350, pk á 25stk</value>
+  </data>
+  <data name="Thermo_FestekileTilUBlokk350_Enhet" xml:space="preserve">
+    <value>pk</value>
+  </data>
+  <data name="Thermo_FestekileTilUBlokk350_NOBB" xml:space="preserve">
+    <value>25566712</value>
+  </data>
+  <data name="Thermo_fiberpuss" xml:space="preserve">
+    <value>Jackon fiberpuss, sekk á 25 kg</value>
+  </data>
+  <data name="Thermo_fiberpuss_Enhet" xml:space="preserve">
+    <value>sekk</value>
+  </data>
+  <data name="Thermo_fiberpuss_NOBB" xml:space="preserve">
+    <value>23107527</value>
+  </data>
+  <data name="Thermo_Forskalingsboyler" xml:space="preserve">
+    <value>Forskalingsbøyler 350, pk. á 20stk</value>
+  </data>
+  <data name="Thermo_Forskalingsboyler_Enhet" xml:space="preserve">
+    <value>stk</value>
+  </data>
+  <data name="Thermo_Forskalingsboyler_NOBB" xml:space="preserve">
+    <value>41467044</value>
+  </data>
+  <data name="Thermo_halvblokk350Apen" xml:space="preserve">
+    <value>1/2-blokk 350 åpen, h=0,15m pk á 1,44m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_halvblokk350Apen_Enhet" xml:space="preserve">
+    <value>m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_halvblokk350Apen_NOBB" xml:space="preserve">
+    <value>41467002</value>
+  </data>
+  <data name="Thermo_halvblokk350Hjorne" xml:space="preserve">
+    <value>1/2-blokk 350 tett, h=0,15m pk á 1,44m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_halvblokk350Hjorne_Enhet" xml:space="preserve">
+    <value>m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_halvblokk350Hjorne_NOBB" xml:space="preserve">
+    <value>41467010</value>
+  </data>
+  <data name="Thermo_Hjorne350Hoyre" xml:space="preserve">
+    <value>NY Hjørne 350 Høyre, h=0,3m pk á 0,36m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_Hjorne350Hoyre_Enhet" xml:space="preserve">
+    <value>m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_Hjorne350Hoyre_NOBB" xml:space="preserve">
+    <value>43819383</value>
+  </data>
+  <data name="Thermo_Hjorne350Venstre" xml:space="preserve">
+    <value>NY Hjørne 350 Venstre, h=0,3m pk á 0,36m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_Hjorne350Venstre_Enhet" xml:space="preserve">
+    <value>m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_Hjorne350Venstre_NOBB" xml:space="preserve">
+    <value>43819398</value>
+  </data>
+  <data name="Thermo_Saaleblokk" xml:space="preserve">
+    <value>Såleblokk, stk</value>
+  </data>
+  <data name="Thermo_Saaleblokk_Enhet" xml:space="preserve">
+    <value>stk</value>
+  </data>
+  <data name="Thermo_Saaleblokk_NOBB" xml:space="preserve">
+    <value>45451745</value>
+  </data>
+  <data name="Thermo_Smyglist" xml:space="preserve">
+    <value>Smyglist, l=1,2m pk á 10stk.</value>
+  </data>
+  <data name="Thermo_Smyglist_Enhet" xml:space="preserve">
+    <value>stk</value>
+  </data>
+  <data name="Thermo_Smyglist_NOBB" xml:space="preserve">
+    <value>41467051</value>
+  </data>
+  <data name="Thermo_STD_Blokk350Apen" xml:space="preserve">
+    <value>STD-blokk 350 åpen, h=0,3m pk á 1,44m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_STD_Blokk350Apen_Enhet" xml:space="preserve">
+    <value>m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_STD_Blokk350Apen_NOBB" xml:space="preserve">
+    <value>41466988</value>
+  </data>
+  <data name="Thermo_STD_Blokk350Hjorne" xml:space="preserve">
+    <value>STD-blokk 350 tett, h=0,3m pk á 1,44m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_STD_Blokk350Hjorne_Enhet" xml:space="preserve">
+    <value>m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_STD_Blokk350Hjorne_NOBB" xml:space="preserve">
+    <value>41466996</value>
+  </data>
+  <data name="Thermo_TetningsMembran" xml:space="preserve">
+    <value>Tetningsmembran, spann á 10 kg</value>
+  </data>
+  <data name="Thermo_TetningsMembran_Enhet" xml:space="preserve">
+    <value>stk</value>
+  </data>
+  <data name="Thermo_TetningsMembran_NOBB" xml:space="preserve">
+    <value>23107550</value>
+  </data>
+  <data name="Thermo_Trekiler" xml:space="preserve">
+    <value>Trekiler, pk. á 20 stk</value>
+  </data>
+  <data name="Thermo_Trekiler_Enhet" xml:space="preserve">
+    <value>pk</value>
+  </data>
+  <data name="Thermo_Trekiler_NOBB" xml:space="preserve">
+    <value>24398372</value>
+  </data>
+  <data name="Thermo_U_Blokk350Apen" xml:space="preserve">
+    <value>Toppblokk 350 åpen, h=0,3m pk á 1,44m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_U_Blokk350Apen_Enhet" xml:space="preserve">
+    <value>m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_U_Blokk350Apen_NOBB" xml:space="preserve">
+    <value>41467028</value>
+  </data>
+  <data name="Thermo_U_Blokk350Hjorne" xml:space="preserve">
+    <value>Toppblokk 350 tett, h=0,3m pk á 1,44m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_U_Blokk350Hjorne_Enhet" xml:space="preserve">
+    <value>m&lt;sup&gt;2&lt;/sup&gt;</value>
+  </data>
+  <data name="Thermo_U_Blokk350Hjorne_NOBB" xml:space="preserve">
+    <value>41467036</value>
+  </data>
+  <data name="Jackopor_80_Pris" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="Thermo_Armeringsvev20_Pris" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Thermo_Armeringsvev50_Pris" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Thermo_FestekileTilUBlokk350_Pris" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Thermo_Forskalingsboyler_Pris" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Thermo_halvblokk350Apen_Pris" xml:space="preserve">
+    <value>619</value>
+  </data>
+  <data name="Thermo_halvblokk350Hjorne_Pris" xml:space="preserve">
+    <value>619</value>
+  </data>
+  <data name="Thermo_Hjorne350Hoyre_Pris" xml:space="preserve">
+    <value>619</value>
+  </data>
+  <data name="Thermo_Hjorne350Venstre_Pris" xml:space="preserve">
+    <value>619</value>
+  </data>
+  <data name="Thermo_Saaleblokk_Pris" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Thermo_Smyglist_Pris" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Thermo_STD_Blokk350Apen_Pris" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Thermo_STD_Blokk350Hjorne_Pris" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Thermo_TetningsMembran_Pris" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Thermo_Trekiler_Pris" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Thermo_U_Blokk350Apen_Pris" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Thermo_U_Blokk350Hjorne_Pris" xml:space="preserve">
+    <value />
+  </data>
+  <data name="JackonPassword" xml:space="preserve">
+    <value>JackonPassord</value>
+  </data>
+  <data name="Plastfolie_Pris" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Thermo_Byggeskum_Pris" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Thermo_fiberpuss_Pris" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TotalPris" xml:space="preserve">
+    <value>Totalpris</value>
+  </data>
+  <data name="Artikkelnavn" xml:space="preserve">
+    <value>Artikkelnavn</value>
+  </data>
+  <data name="BesoksAdresse" xml:space="preserve">
+    <value>Sørkilen 3</value>
+  </data>
+  <data name="Dato" xml:space="preserve">
+    <value>Dato</value>
+  </data>
+  <data name="LogoName" xml:space="preserve">
+    <value>Jackon_NYlogo.jpg</value>
+  </data>
+  <data name="Plastkile" xml:space="preserve">
+    <value>Plastkile</value>
+  </data>
+  <data name="Plastkile_Enhet" xml:space="preserve">
+    <value>stk</value>
+  </data>
+  <data name="Plastkile_NOBB" xml:space="preserve">
+    <value>27907294</value>
+  </data>
+  <data name="Plastkile_Pris" xml:space="preserve">
+    <value>6,50</value>
+  </data>
+  <data name="SendMail" xml:space="preserve">
+    <value>Send som epost</value>
+  </data>
+  <data name="WebsiteUrl" xml:space="preserve">
+    <value>www.jackon.no</value>
+  </data>
+  <data name="ThermoCalcDescription" xml:space="preserve">
+    <value>Nå kan du selv finne ut hvilke mengder du trenger til ditt prosjekt. Fyll inn de åpne feltene i skjemaet og beregningsprogrammet gir deg fullstendig materialliste.</value>
+  </data>
+  <data name="PussBilde" xml:space="preserve">
+    <value>Javascript:ImgChoice.src='Image/puss.jpg';</value>
+  </data>
+  <data name="TetningsmembranBilde" xml:space="preserve">
+    <value>Javascript:ImgChoice.src='Image/Tetningsmembran.jpg';</value>
+  </data>
+</root>

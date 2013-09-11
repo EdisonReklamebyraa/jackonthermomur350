@@ -1,0 +1,70 @@
+
+* { margin: 0px; padding: 0px; }
+
+h1,h2,h3,h4,h5,a,div,span,form,input,textarea,select,option,nobr, button,TD, TH
+{
+	font-family:verdana;font-size:x-small;color:#523c6a;
+}
+
+th { font-size: xx-small; }
+td { font-size: xx-small; }
+
+body         { font-family: Arial; font-size: 9pt }
+.sideskift   { page-break-after: always }
+a            { color: darkblue; font-weight: bold; text-decoration:none }
+a:hover      { text-decoration: underline }
+input        { font-family: Arial; font-size: 9pt }
+textarea     { font-family: Arial; font-size: 9pt }
+table        { font-family: Arial; font-size: 9pt }
+button       { font-family: Arial; font-size: 9pt }
+.storskrift	 { font-family: Arial; font-size: 14pt; font-weight: bold }
+.mellomskrift	 { font-family: Arial; font-size: 12pt; font-weight: bold }
+.bunntekst	 { font-family: Arial; font-size: 8pt }
+
+.header2     { font-family: Arial; font-size: 10pt; font-weight: bold; color:#523c6a;}
+.header3     { font-family: Arial; font-size: 10pt; color:#523c6a;}
+
+.col_name	 { width: 180px; }
+.col_TUN	 { width: 70px; }
+.col_3		 { width: 65px; }
+.col_4		 { width: 65px; }
+.col_5		 { width: 65px; }
+.col_6		 { width: 65px; }
+.col_7		 { width: 40px; }
+.col_8		 { width: 40px; }
+
+
+H2	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.75em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+h2, h3, h5
+{
+    color: #523c6a;
+    margin-bottom: 1px;
+    font-size: small;
+    font-weight: normal;
+}
+	
+.col1_name { width: 160px; }
+.col2_name { width: 200px; }
+.col3_name { width: 20px; } /* Space */
+.col4_name { width: 50px; }
+.col5_name { width: 120px; }
+.col6_name { width: 20px; } /* Space */
+.col7_name { width: 100px; }
+.col8_name { width: 80px; }
+
+.wwwJackonDk { font-size: 12pt; font-weight:bold; }
+
+a
+{
+	font-family:verdana;font-size:xx-small;color:#523c6a;font-weight:normal;
+}
